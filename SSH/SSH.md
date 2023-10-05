@@ -19,11 +19,11 @@ Należy teraz sprawdzić czy serwer SSH działa poprawnie uzywamy do tego polece
 ```shell
 systemctl status sshd
 ```
-Powininismy otrzymać taką informację  
-![obrazek z działającym](/ssh.png)  
+Powininismy otrzymać taką informację:  
+![obrazek z działającym](ssh.png)  
 Teraz wystarczy połączyć się z innego komputera przy pomocy klienta SSH np. PuTTY używając IP serwera  
 
-![puTTy obrazek](/putty.png)  
+![puTTy obrazek](putty.png)  
 Podajemy login i hasło konta którego chcemy uzywac na **serwerze**
 
 Takie połączeni SSH pozwala nam zdalnie połączyć się z powłoką serwera ale nie jest jest najlepszym rozwiązaniem. Protokół SSh domyślnie używa autiryzacji loginem i hasłem która nie jest zbyt bezpieczna. Pwodem tego jest duża podatnośc haseł na ataki brute-force, rozwiązeniem jest zastosowanie autoryzacji kluczami SSH która polega na wygenerowaniu dwóch kluczy jednego umieszczonego na serwerze(publicznego) i drugiego znajdującego się na komputerze z którego próbujemy się połączyć z serwerem(prywatnego). Przy każdej próbie połaczenia z serwerem klucze będą porównywane uniemozliwiając logowanie bez posiadania odpowiedniego klucza. Aby skonfigurować nasze połaczenie SSH do używania kluczy musi na początek wygenerowac nasze klucze na **kliencie z którego będziemy łączyć sie z serwerem** mozemy to zrobic przez wpisanie w PowerShell polecenia:
@@ -33,13 +33,13 @@ ssh-keygen -t rsa
 ```
 Gdy program zapyta nas o "passphrase" możwemy podać hasło które bedzie wymagana za każdym razem gdypołączym się za pomoca naszego klucza, jeśli nic nie wpiszemy hasło nie będzie wymagane. Po wygenerowaniu klucza powinniśmy otrzymać taką informację:
 
-![obrazek z powershella](/powershell.png)  
+![obrazek z powershella](powershell.png)  
 Otrzymalismy informację o lokalizacji pliku z naszymi kluczami teraz musimy skopiować nasz klucz publiczny który domyślnie znajduje się w pliku _id\_rsa.pub_ do pliku _~/.ssh/authorized\_keys_ na **serwerze**.  
 Po zapisaniu klucza publicznego na **serwerze** musi aktywować klucz prywatny na kliencie SSH. W przypadku klienta PuTTy należy najpierw zamienić format klucza SSH na taki obsługiwany przez PuTTy w tym celu musimy użyć narzędzia PuTTy Key Generator.
-![obraz keygen](/keygen.png)  
+![obraz keygen](keygen.png)  
 Wybieramy opcję załadowania istniejącego klucza i podajemy lokalizację naszego pliku _id\_rsa_ po czym zapisac nowy klucz prywatny obsługiwany przez PuTTy. Następnie juz w programie PuTTy w zakładkach Connection/SSH/Auth/Credentials podajemy lokalizację naszego nowego zmienionego klucza prywatnego. 
 
 ![podajemy klucz obrazek](klucz.png)  
 Po ustawieniu klucza wystarczy się zwyczajnie połączyć z serwerem SSH i wpisać passphrase,jeśli podaliśmy taki przy tworzeniu.  
 
-![obraz po zalogowaniu](/logowanie.png)
+![obraz po zalogowaniu](logowanie.png)
