@@ -15,9 +15,9 @@ UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protok�
 
 ## Budowa Nagłówka UDP
 ![UDP obrazek](header.jpg)
-**Port nadawcy** - identyfikuje port z którego została wysłana wiadomość. jest polem opcjonalnym, pryjmuje wartośc zero jeśli jest nieużywany
+**Port źródłowy** - identyfikuje port z którego została wysłana wiadomość. jest polem opcjonalnym, pryjmuje wartośc zero jeśli jest nieużywany
 
-**Port odbiorcy** - identyfikuje port odbiorcy i jest polem wymaganym
+**Port docelowy** - identyfikuje port odbiorcy i jest polem wymaganym
 
 **Długość** - 16-bitowe pola specyfikują długość w bajtach całego datagramu: nagłówek i dane. Minimalna długość to 8 bajtów i jest to długość nagłówka. Wielkość pola ustala teoretyczny limit 65527 bajtów, dla danych przenoszonych przez pojedynczy datagram UDP  
 
