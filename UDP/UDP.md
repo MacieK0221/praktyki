@@ -1,6 +1,6 @@
 # UDP
 ## Czym jest UDP?
-UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protokół warstwy transportowej działający na wierzchu protokołu IP. UDP nie generuje dodatkowego ruchu na informacje zwrotne i nie czeka na potwierdzenie o otrzymaniu danych. W UDP wiadomości przujdą ale nie zawsze w poprawnej kolejności(w TCP jest ona zachowana). UDP jest jest prosty i szybki przez co jest głównie stosowany w aplikacjach czułych na czas w których szybkość jest wazniejsza niz dokładność np. strumieniowanie wideo w czasie rzeczywistym albo grach sieciowych.  
+UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protokół warstwy transportowej działający na wierzchu protokołu IP. UDP nie generuje dodatkowego ruchu na informacje zwrotne i nie czeka na potwierdzenie o otrzymaniu danych. W UDP wiadomości przyjdą ale nie zawsze w poprawnej kolejności(w TCP jest ona zachowana). UDP jest jest prosty i szybki przez co jest głównie stosowany w aplikacjach czułych na czas w których szybkość jest wazniejsza niz dokładność np. strumieniowanie wideo w czasie rzeczywistym albo grach sieciowych.  
 ![obrazekTCPvsUDP](tcpvsudp.png)
 
 ## Porównanie TCP i UDP
