@@ -35,11 +35,11 @@ Naciskamy prawym przyciskiem myszy na **SMTP Virtual Server #1** w wchodzimy w w
 ![własciwosci](smtpserwer.png)  
 W zakładce **Dostęp** wybieramy przycisk **Przekazywanie** i naciskamy dodaj w nowo otwartym oknie
 ![Dostep](wlasciwosciSMTP.png)
-W tym oknie możemy dodać komputer podając jego IP albo grupe komputerów
-![dodanie](dodawanieKomputera.png)
+W tym oknie możemy dodać komputer podając jego IP albo grupe komputerów  
+![dodanie](dodawanieKomputera.png)  
 W właściwościach w oknie **Dostarczanie** możemy skonfigurować zabezpieczenia naszego serwera SMTP w tym celu naciskamy**Zabezpieczenia poczty wychodzącej**
 ![Dostarczanie](zabezpiecznia.png)
 W oknie zabezpieczenia poczty wychodzącej możemy ustawić rodzaj uwierzytelniania dostępu do naszego serwera
-![zabezpieczenia]()
+![zabezpieczenia](uwierzytelnianie.png)
 Po dodaniu komputerów i skonfigurowaniu zabezpieczeń według naszych potrzeb możemy uruchomic serwer klikając prawym przyciskiem na **SMTP Virtual Server #1** i wybierając opcje uruchom
-![uruchomienie]()
+![uruchomienie](uruchomienie.png)
