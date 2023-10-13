@@ -19,7 +19,7 @@ Nie wybieramy żadnej roli serwera i przechodzimy dalej
 ![roleserwera](wyborRoli.png)
 Zaznaczamy funkcje **Serwer SMTP** i naciskamy dalej
 ![SerwerSMTP](wyborSMTP.png)
-Dodajemy dodatkowe funkcje wymagane przez serwert SMTP
+Dodajemy dodatkowe funkcje wymagane przez serwert SMTP  
 ![dodatkowe](dodatkoweFunkcje.png)
 Instalujemy serwer sieci Web
 ![Web](serwerWEB.png)
