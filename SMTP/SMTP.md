@@ -21,7 +21,7 @@ Zaznaczamy funkcje **Serwer SMTP** i naciskamy dalej
 ![SerwerSMTP](wyborSMTP.png)
 Dodajemy dodatkowe funkcje wymagane przez serwert SMTP  
 ![dodatkowe](dodatkoweFunkcje.png)  
-Instalujemy serwer sieci Web
+Instalujemy serwer sieci Web  
 ![Web](serwerWEB.png)
 Wybieramy dodatkowe potrzebne nam usługi serwera sieci Web, wszystkie usługi wymagane przes SMTP są juz zaznaczone
 ![webrole](uslugiRol.png)
