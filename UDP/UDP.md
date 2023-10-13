@@ -1,6 +1,6 @@
 # UDP
 ## Czym jest UDP?
-UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protokół warstwy transportowej działający na wierzchu protokołu IP. UDP nie generuje dodatkowego ruchu na informacje zwrotne i nie czeka na potwierdzenie o otrzymaniu danych. W UDP wiadomości przujdą ale nie zawsze w poprawnej kolejności(w TCP jest ona zachowana). UDP jest jest prosty i szybki przez co jest głównie stosowany w aplikacjach czułych na czas w których szybkość jest wazniejsza niz dokładność np. strumieniowanie wideo w czasie rzeczywistym albo grach sieciowych.  
+UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protokół warstwy transportowej działający na wierzchu protokołu IP. UDP nie generuje dodatkowego ruchu na informacje zwrotne i nie czeka na potwierdzenie o otrzymaniu danych. W UDP wiadomości przyjdą ale nie zawsze w poprawnej kolejności(w TCP jest ona zachowana). UDP jest jest prosty i szybki przez co jest głównie stosowany w aplikacjach czułych na czas w których szybkość jest wazniejsza niz dokładność np. strumieniowanie wideo w czasie rzeczywistym albo grach sieciowych.  
 ![obrazekTCPvsUDP](tcpvsudp.png)
 
 ## Porównanie TCP i UDP
@@ -15,9 +15,9 @@ UDP(ang. User Datagram Protocol – protokół pakietów użytkownika) - protok�
 
 ## Budowa Nagłówka UDP
 ![UDP obrazek](header.jpg)
-**Port nadawcy** - identyfikuje port z którego została wysłana wiadomość. jest polem opcjonalnym, pryjmuje wartośc zero jeśli jest nieużywany
+**Port źródłowy** - identyfikuje port z którego została wysłana wiadomość. jest polem opcjonalnym, pryjmuje wartośc zero jeśli jest nieużywany
 
-**Port odbiorcy** - identyfikuje port odbiorcy i jest polem wymaganym
+**Port docelowy** - identyfikuje port odbiorcy i jest polem wymaganym
 
 **Długość** - 16-bitowe pola specyfikują długość w bajtach całego datagramu: nagłówek i dane. Minimalna długość to 8 bajtów i jest to długość nagłówka. Wielkość pola ustala teoretyczny limit 65527 bajtów, dla danych przenoszonych przez pojedynczy datagram UDP  
 
