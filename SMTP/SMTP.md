@@ -31,8 +31,8 @@ Potwierdzamy instalację
 ## Konfiguracja serwera 
 Wchodzimy w zakładkę **Narzędzia** i wybieramy opcję **Menedzęr internetowych usług informacyjnych (IIS) 6.0**
 ![zdjecie](poczatek.png)
-Naciskamy prawym przyciskiem myszy na **SMTP Virtual Server #1** w wchodzimy w właściwości
-![własciwosci](smtpserwer.png)
+Naciskamy prawym przyciskiem myszy na **SMTP Virtual Server #1** w wchodzimy w właściwości  
+![własciwosci](smtpserwer.png)  
 W zakładce **Dostęp** wybieramy przycisk **Przekazywanie** i naciskamy dodaj w nowo otwartym oknie
 ![Dostep](wlasciwosciSMTP.png)
 W tym oknie możemy dodać komputer podając jego IP albo grupe komputerów
