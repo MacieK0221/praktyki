@@ -1,19 +1,19 @@
 ## Instalacja serwera PostgreSQL
 Uruchamiamy instalator  
-![isntalatorzdjecie]()  
+![isntalatorzdjecie](isntalatorzdjecie.png)  
 Wybieramy lokalizacje instalacji PostgreSQL   
-![lokalizacjainstlacji]()  
+![lokalizacjainstlacji](lokalizacjainstlacji.png)  
 Wybieramy komponenty które chcemy zainstalować  
-![zdjeceiekomponenty]()  
+![zdjeceiekomponenty](zdjeceiekomponenty.png)  
 Wybieramy lokalizację w której będą zapisywane dane  
-![danelokalizacja]()  
+![danelokalizacja](danelokalizacja.png)  
 Podajemy hasło administratora baz danych(super user)  
-![haslo]()  
+![haslo](haslo.png)  
 Wybieramy "regionalność" naszego PostgreSQL  
-![locale]()  
+![locale](locale.png)  
 Sprawdzmy podsumowanie instalacji i jeśli wszystko się zgadza przewchodzimy dalej  
-![podsumowanie]()  
+![podsumowanie](podsumowanie.png)  
 Uruchamiamy instalacje  
-![instalacja]()  
+![instalacja](instalacja.png)  
 Odznaczamy opcje Stack builder i zakańczamy instalacje  
-![konie]()  
+![konie](konie.png)  
