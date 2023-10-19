@@ -99,5 +99,5 @@ Sprawdzmy podsumowanie instalacji i jeśli wszystko się zgadza przewchodzimy da
 ![podsumowanie](podsumowanie.png)  
 Uruchamiamy instalacje  
 ![instalacja](instalacja.png)  
-Odznaczamy opcje Stack builder i zakańczamy instalacje  
+Odznaczamy opcje Stack builder i kończymy instalacje  
 ![konie](konie.png)  
