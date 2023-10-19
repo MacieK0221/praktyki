@@ -1,8 +1,8 @@
 ## Instalacja serwera PostgreSQL
 Uruchamiamy instalator  
-![isntalatorzdjecie](isntalatorzdjecie.png)  
+![isntalatorzdjecie](instalatorzdjecie.png)  
 Wybieramy lokalizacje instalacji PostgreSQL   
-![lokalizacjainstlacji](lokalizacjainstlacji.png)  
+![lokalizacjainstlacji](lokalizacjainstlacjipng.png)  
 Wybieramy komponenty które chcemy zainstalować  
 ![zdjeceiekomponenty](zdjeceiekomponenty.png)  
 Wybieramy lokalizację w której będą zapisywane dane  
