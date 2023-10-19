@@ -1,4 +1,6 @@
-# Czym jest PostrgeSQL
+#PostgreSQL
+
+## Czym jest PostrgeSQL
 PostgreSQL to darmowy, otwarty system zarządzania relacyjnymi bazami danych o bardzo wysokiej dostępności. Początki PostgreSQL sięgają 1986 roku jako część projektu _POSTGRES_ na Uniwersytecie Kalifornijskim w Berkeley i od ponad 35 lat jest stale udoskonalany przez aktywną społeczność ekspertów. PostgreSQL zyskał dobrą reputację dzięki sprawdzonej architekturze, niezawodności, integralności danych, solidnemu zestawowi funkcji np.:
 * Typy danych
 * Integralność danych
@@ -24,7 +26,7 @@ PostgreSQL jest relacyjno-obiektową bazą danych oznacza to że pozwala na trzy
 2. Otwarte Oprogramowanie
 3. Niezawodność
 
-# Język bazodanowy PostgreSQL
+## Język bazodanowy PostgreSQL
 Jezykiem wykorzystywanym przez PostgreSQL jest jezyk **SQL**(ang. Structured Query Language) - który jest opracowanym w latach 70 strukturalnym oraz deklaratywnym językiem zapytań. Jest to język dziedzinowy używany do tworzenia, modyfikowania relacyjnych baz danych. 
 
 ## Podział zapytań w SQL
@@ -79,3 +81,23 @@ CREATE TABLE pracownicy
 );
 ```  
 Tworzy tabelę „pracownicy” zawierającą pola tekstowe zmiennej długości (varchar) o nazwach „imie” (imię) i „nazwisko”, o maksymalnej długości 255 znaków, zapisaną za pomocą liczby rzeczywistej (float od ang. floating point) pensję oraz zapisany za pomocą liczby całkowitej (int od ang. integer) staż.
+
+## Instalacja serwera PostgreSQL
+Uruchamiamy instalator  
+![isntalatorzdjecie](instalatorzdjecie.png)  
+Wybieramy lokalizacje instalacji PostgreSQL   
+![lokalizacjainstlacji](lokalizacjainstlacjipng.png)  
+Wybieramy komponenty które chcemy zainstalować  
+![zdjeceiekomponenty](zdjeceiekomponenty.png)  
+Wybieramy lokalizację w której będą zapisywane dane  
+![danelokalizacja](danelokalizacja.png)  
+Podajemy hasło administratora baz danych(super user)  
+![haslo](haslo.png)  
+Wybieramy "regionalność" naszego PostgreSQL  
+![locale](locale.png)  
+Sprawdzmy podsumowanie instalacji i jeśli wszystko się zgadza przewchodzimy dalej  
+![podsumowanie](podsumowanie.png)  
+Uruchamiamy instalacje  
+![instalacja](instalacja.png)  
+Odznaczamy opcje Stack builder i zakańczamy instalacje  
+![konie](konie.png)  
