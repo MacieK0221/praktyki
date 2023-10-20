@@ -50,7 +50,7 @@ Dane wejściowe SQL składają się z sekwencji poleceń. Polecenie składa się
 *  CREATE TABLE -  tworzy nową tabelę
 *  ALTER TABLE - modyfikuje tabelę
 *  DROP TABLE - usuwa tabelę
-*  REATE INDEX - REATE INDEX - tworzy indeks (klucz wyszukiwania)
+*  cREATE INDEX - tworzy indeks (klucz wyszukiwania)
 *  DROP INDEX - usuwa indeks
 
 ## Przykładowe zapytania
